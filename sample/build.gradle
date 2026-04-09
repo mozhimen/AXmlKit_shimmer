@@ -45,9 +45,6 @@ android {
 }
 
 dependencies {
-//  implementation deps.shimmer
-//  implementation deps.kotlinStdlib
-//  implementation deps.constraintLayout
   implementation project(':shimmer')
-  implementation project(':ASwiftKit:uik:databinding')
+  implementation 'com.github.mozhimen.ASwiftKit:uik-databinding:2.0.4'
 }

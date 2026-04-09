@@ -7,7 +7,6 @@
  */
 
 buildscript {
-//  apply from: rootProject.file('versions.gradle')
   repositories {
     gradlePluginPortal()
     maven { url 'https://maven.aliyun.com/repository/central' }
